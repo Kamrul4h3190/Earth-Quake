@@ -54,7 +54,6 @@ public class EarthQuakeClient {
         for (QuakeEntry qe : listBig) {
            System.out.println(qe); 
         }
-        System.out.println("Found "+listBig.size()+" quakes that match that criteria");
     }
     
     public void createCSV(){
